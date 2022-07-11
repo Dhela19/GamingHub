@@ -1,0 +1,111 @@
+html {
+          padding:0px;
+          margin:0px;
+
+      }
+body{
+          /* background-color:black; */
+            background-image:url('./bg.jpg');
+          margin:0px;
+          padding:0px;
+          margin-bottom:10px;
+}
+#name{
+         text-align:center;
+         color:#871ddd;
+         font-weight:1000;
+         font-size: 25px;
+         margin:0px;
+         margin-bottom:2px;
+
+}
+/* subname here represents the description after the websites heading */
+#subname{
+         text-align:center;
+         color:#871ddd;
+         margin:0px;
+         font-weight:500;
+         font-size:larger;
+         font-family:roboto;
+         margin-bottom:10px;
+}
+#navbar{
+          /* border:3px solid blue; */
+          margin:none;
+          border:none;
+          padding:none;
+          background-image:linear-gradient(to top, rgba(0,0,0,0),rgba(128, 128, 128, 0.288) );
+          position:sticky;
+          z-index:100000;
+}
+#navicons{
+          display:flex;
+          height:4rem;
+          margin-left:auto;
+          /* position:sticky; */
+}
+.nav_options{
+          font-size:12px;
+          font-weight:900;
+          border:2px solid #871ddd;
+          color: #B7B7B7;
+          border-radius:12px;
+          padding:10px;
+          height:auto;
+          margin:auto;
+          background-color:#0000ff00;
+          cursor:pointer;
+          
+}
+.navl{
+    padding:10px;
+    height:auto;
+    margin:auto;
+}
+.nav_options:hover{
+          /* z-index:7000; */
+          /* font-weight:800; */
+          /* padding:2rem; */
+          /* height:3rem; */
+          /* border:3px solid #871ddd; */
+          /* color: rgb(196, 149, 235); */
+          background-color:rgba(0, 0, 255, 0.39);
+          border-radius: 6px;
+}
+#splash_cont{
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+    /* position:absolute;
+    left:150px; */
+    
+}
+#splash_text{
+    color:#871ddd;
+    font-size:50px;
+    text-align:center;
+    /* text-decoration-line:underline; */
+    /* text-decoration-color:#871ddd; */
+}
+#trending{
+    display:flex;
+    margin-top:20px;
+    width:auto;
+    height:auto;
+    padding:1px;
+    
+}
+#what_is_trending{
+    text-align:center;
+    color:#871ddd;
+    margin:auto;
+    font-size:15px;
+    /* background-image:linear-gradient(to right,black, #871ddd, black); */
+    border-top:2px solid #871ddd;
+    border-bottom:1px solid #871ddd;
+    padding:3px;
+    line-height:200%;
+    font-weight:500;
+    cursor:default;
+}
+/* you can find the style for the card iiin the card.css file */

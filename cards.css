@@ -1,0 +1,551 @@
+#trend_cards{
+          display:flexbox;
+          z-index: 200000000;
+}
+
+.img[id=minecraft_img]{
+          width:100%;
+          border-radius:12px;
+          object-fit: cover;
+          margin-bottom:10px;
+}
+.cards_cont {
+          max-width: 300px;
+          /*center the container in the middle on horizontal axis*/
+          margin: 0 auto;
+          /*add empty space above the container (20%of the view height)*/
+          margin-top:10vh;
+          margin-bottom:10vh;
+          /* display:flex; */
+          /* border:2px solid pink; */
+          padding:10px;
+          z-index:50;
+}
+.card{
+          /* change background color */
+          background-color:#00003048;
+          /* add border */
+          border: 1px solid #871ddd;
+          /* add space between the border and the content */
+          padding: 8px;
+          border-radius:15px;
+          z-index:49;
+}
+.card:hover{
+          /* this was to make the card responsive */
+          background-color:#040250;  
+          cursor:default;
+}
+/* styling the div element that has the class equals to tag */
+.tag{
+          padding:4px 8px;
+          /* border: 1px solid #e5eaed; */
+          border-radius:50px;
+          font-size: 12px;
+          font-weight: 600;
+          color:#871ddd;
+          margin-top:100px;
+}
+/* style div elements that have class equals to name*/
+.name{
+          font-size: 24px;
+          font-weight:600;
+          margin-top:16px;
+          color:#871ddd;
+}
+/* style p element */
+.card_description{
+           font-size:14px;
+           margin-top:15px;
+           color: #871ddd;
+           border-radius:50px;
+           line-height:150%;
+          }
+.card_buttons{
+          border:none;
+          padding:12px 24px;
+          border-radius:40px;
+          font-weight:600;
+          color: #871ddd;
+          background-color: #e0efff;
+          /* button is inline-block element by default, it needs to have block display for margin: 0 auto; to work */
+          margin: 0 3px;
+          display: block;
+          /* button is a clickable element, therefore it should have a pointer cursor */
+          cursor:pointer;
+          text-decoration-line:none;
+          text-decoration:none;
+}
+#card_buttons{
+          display:flex;
+}
+.card_details{
+          /* adding space around the card details */
+          padding:16px 8px 8px 8px;
+
+}
+/* add style when button is focused or hovered */
+.card_buttons:focus,.card_buttons:hover{
+          background-color: #871ddd;
+          color:#e0efff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
