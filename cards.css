@@ -23,7 +23,8 @@
 }
 .card{
           /* change background color */
-          background-color:#00003048;
+          background-color:#00003093;
+          /* background-image:url('./files/background.svg'); */
           /* add border */
           border: 1px solid #871ddd;
           /* add space between the border and the content */
