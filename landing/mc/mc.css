@@ -1,23 +1,107 @@
 body{
-          /* background-image:url("../../files/background.svg") */
+          /* background-image:url("../../files/background.svg"); */
           background-color:black;
+}
+.headings{
+          font-weight:600;
+          color:blue;
+          text-align:center;
+          /* background-image:linear-gradient(to right, ) */
 }
 .image_cont{
           display:flex;
+          flex-wrap:wrap;
           flex-direction:row;
+          margin:auto;
+          /* margin-left:10px; */
+          padding:0;
 }
 .featured{
           max-width: 500px;
           height:50%;
-          border-radius:15px;
-          margin:10px;
+          border-radius:20px;
+          margin:auto;
           /* display:flex; */
-          padding:10px;
+          padding:5px;
+          padding-bottom: 15px;
+          border: 1px solid #871ddd;
+          background-color:blue;
           
 }
 .main_img{
-          object-fit:contain;
-          width:100%;
+          /* object-fit:contain; */
+          width:25vw;
           /* border-radius:15px; */
-          height:100vh;
+          height:50vh;
+          border-radius:20px;
+}
+.tag{
+          font-size:16px;
+          color:white;
+          font-weight:500;
+          text-align:center;
+}
+.buttons{
+          margin:10px;
+          padding:5px;
+          display:flex;
+          flex-direction:row;
+}
+.link{
+          margin:auto;
+}
+
+.back{
+          font: size 30x;
+          font-weight:600;
+          color:blue;
+          background-color:rgba(0, 0, 0, 0.363);
+          border:3px solid blue;
+          border-radius:15px;
+          width:auto;
+          height:auto;
+          padding:10px;
+          margin:auto;
+}
+
+.play{
+          /* font-size: 12px; */
+          font-weight:600;
+          color:white;
+          background-color:blue;
+          border:none;
+          border-radius:7px;
+          width:auto;
+          height:auto;
+          padding:10px;
+          margin:auto;
+}
+.download{
+          /* font: size 30x; */
+          font-weight:600;
+          color:white;
+          background-color:blue;
+          border:none;
+          border-radius:10px;
+          width:auto;
+          height:40px;
+          padding:8px;
+          margin:auto;
+}
+.back:hover, .back:active{
+          /* background-color:#871ddd; */
+          border-radius:10px;
+          /* color:white; */
+          border:3px solid blue;
+}
+.play:hover{
+          /* text-decoration-line: underline; */
+          /* background: color #ffffff00; */
+          border:2px solid blue;
+          /* color:blue; */
+}
+.download:hover{
+          /* background-color:#00003093; */
+          border:1px solid blue;
+          /* padding:9px; */
 }
